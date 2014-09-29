@@ -6,12 +6,10 @@ import stat
 
 _logger = logging.getLogger(__name__)
 
-#MAIN_REPO_URL = "https://github.com/odoo-mexico/odoo-mexico.git"
+MAIN_REPO_URL = "https://github.com/odoo-mexico/odoo-mexico.git"
 #MAIN_REPO_URL = "https://github.com/OCA/sale-financial.git"
-MAIN_REPO_URL = "git@github.com:OCA/OCB.git"
+#MAIN_REPO_URL = "git@github.com:OCA/OCB.git"
 MAIN_BRANCH = "7.0"
-MAIN_REPO_URL = "git@github.com:hbrunn/OCB.git"
-MAIN_BRANCH = "7.0_lp1340813"
 
 #export TRAVIS_HOME=/tmp/home/travis/build
 #export TRAVIS_HOME=/tmp/home
