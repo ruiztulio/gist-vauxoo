@@ -73,6 +73,8 @@ def run_travis_section(sections, travis_data, hidden_cmds=None):
         hidden_cmds = []
     fname_sh = '_'.join(sections) + '_cmd.sh'
     with open(fname_sh, "w") as finstall:
+        finstall.write('export LANG=en_US.UTF-8\n')
+        finstall.write('export LC_ALL=en_US.UTF-8\n')
         for key, value in env.iteritems():
             finstall.write('export %s="%s"\n'%(key, value ))
         for section in sections:
